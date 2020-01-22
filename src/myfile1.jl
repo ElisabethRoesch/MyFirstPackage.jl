@@ -9,7 +9,7 @@ function myFunction1(equation_id)
     return result
 end
 
-# This is an internal function the user cannot use as a default.
+# This is an internal function the user cannot use by default.
 function internalFunction1()
     f(u,p,t) = 1.01*u
     u0 = 1/2
@@ -18,7 +18,7 @@ function internalFunction1()
     sol = solve(prob, Tsit5(), reltol = 1e-8, abstol = 1e-8)
 end
 
-# This is an internal function the user cannot use as a default.
+# This is an internal function the user cannot use by default.
 function internalFunction2()
     f(u,p,t) = 2.01*u
     u0 = 1/5
