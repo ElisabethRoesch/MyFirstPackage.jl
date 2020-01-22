@@ -8,6 +8,7 @@ function myFunction2(solution)
     end
     return result_plot
 end
+
 # This is an internal function the user cannot use by default.
 function internalFunction3(solution)
     p = plot(solution, title = "Very long")
